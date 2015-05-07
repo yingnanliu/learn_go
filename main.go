@@ -1,14 +1,14 @@
 package main
 
 import (
-  "shared"
-  "another"
+  "storage"
+  "printer"
 )
 
 func main() {
-  shared.Set("Foo", "Bar")
-  another.Print()
+  storage.Set("Foo", "Bar")
+  printer.Print()
 
-  shared.Set("Jane", "Doe")
-  another.Print()
+  storage.Set("Jane", "Doe")
+  printer.Print()
 }

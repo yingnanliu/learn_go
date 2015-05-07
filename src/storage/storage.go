@@ -1,4 +1,4 @@
-package shared
+package storage
 
 type name struct {
   first, last string
